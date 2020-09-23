@@ -1,10 +1,10 @@
 import React from 'react'
-import './Home.css'
+import VideoHero from '../../video-hero/VideoHero'
 
 function Home() {
     return (
         <>
-            Hello World
+        <VideoHero />
         </>
     );
 }
