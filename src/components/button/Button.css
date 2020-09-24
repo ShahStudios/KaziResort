@@ -25,6 +25,16 @@
     border: 1px solid var(--primary);
 }
 
+.btn--black {
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid var(--primary);
+}
+.btn--black:hover {
+    outline: 1px solid #000;
+    transition: all 0.5s ease-in;
+}
+
 .btn--outline {
     background-color: transparent;
     color: #fff;

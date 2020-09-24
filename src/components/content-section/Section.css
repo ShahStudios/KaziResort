@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+.section-container {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-row {
+    align-items: center;
+}
+
+.section-row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.section-col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.section-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+}
+
+.card {
+    width: 100vw;
+    height: 55vmin;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #fff;
+    align-content: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card__img {
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img01 {
+    background-image: url("https://images.pexels.com/photos/2096983/pexels-photo-2096983.jpeg?cs=srgb&dl=pexels-julie-aagaard-2096983.jpg&fm=jpg");
+}
+
+#img02 {
+    background-image: url("https://images.pexels.com/photos/1769408/pexels-photo-1769408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#img03 {
+    background-image: url("https://images.pexels.com/photos/2480608/pexels-photo-2480608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#img04 {
+    background-image: url("https://images.pexels.com/photos/258045/pexels-photo-258045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#img05 {
+    background-image: url("https://images.pexels.com/photos/2852350/pexels-photo-2852350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.card__content {
+    padding: 10% 5%;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+}
+
+.card__content-theme {
+    font-weight: 900;
+    font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .02778em;
+    line-height: 1.5em;
+    padding: 0;
+}
+
+.card__content-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: .25em;
+    line-height: 1.3125em;
+    text-transform: uppercase;
+    margin: 15px 30px 10px;
+}
+.card__content-header:after {
+    background-color: currentColor;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 15px auto 10px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.card__content-paragraph {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    letter-spacing: .02778em;
+    line-height: 1.5em;
+    font-family: 'Merriweather', serif;
+}
