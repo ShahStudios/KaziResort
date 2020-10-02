@@ -1,13 +1,15 @@
 import React from 'react'
 import VideoHero from '../../video-hero/VideoHero'
-import Section from '../../content-section/Section'
+import LeftSection from '../../content-section/LeftSection'
+import RightSection from '../../content-section/RightSection'
 
 function Home() {
     
     return (
         <>
         <VideoHero />
-        <Section />
+        <LeftSection />
+        <RightSection />
         </>
     );
 }
