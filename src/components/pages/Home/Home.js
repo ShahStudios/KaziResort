@@ -1,17 +1,23 @@
 import React from 'react'
 import VideoHero from '../../video-hero/VideoHero'
-import LeftSection from '../../content-section/LeftSection'
-import RightSection from '../../content-section/RightSection'
+import Section from '../../content-section/Section'
+
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive } from './Data';
+
 
 function Home() {
     
     return (
         <>
         <VideoHero />
-        <LeftSection />
-        <RightSection />
+        <Section {...homeObjOne}/>
+        <Section {...homeObjTwo}/>
+        <Section {...homeObjThree}/>
+        <Section {...homeObjFour}/>
+        <Section {...homeObjFive}/>
         </>
     );
 }
+
 
 export default Home
