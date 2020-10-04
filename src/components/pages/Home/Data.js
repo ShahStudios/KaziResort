@@ -27,7 +27,7 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     topLine: 'Kazi Resorts Private Retreats',
-    description: 'RENT A HOME WITH FOUR SEASONS',
+    description: 'RENT A HOME WITH KAZI RESORTS',
     bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ullam ut ipsam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat eligendi dolores quaerat eius doloribus aperiam expedita molestiae! Est.',
     lightButton: true,
     buttonLabel: 'Discover More',

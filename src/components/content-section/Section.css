@@ -88,25 +88,6 @@ img {
     display: inline-block;
 }
 
-@media screen and (max-width: 991px) {
-    .container {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .home__hero-text-wrapper {
-        padding-bottom: 65px;
-    }
-
-    .col {
-        max-width: 100%;
-        flex-basis: 100%;
-    }
-}
-
-
 .heading-light {
     font-family: 'EB Garamond', serif;
     text-transform: capitalize;
@@ -119,6 +100,7 @@ img {
     text-align: center;
     color: #fff;
 }
+
 .heading-dark {
     font-family: 'EB Garamond', serif;
     text-transform: capitalize;
@@ -133,7 +115,7 @@ img {
 }
 
 .heading2-light {
-    font-family: Neue Helvetica,Helvetica,sans-serif;
+    font-family: Neue Helvetica, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1.3rem;
@@ -146,7 +128,7 @@ img {
 }
 
 .heading2-light:after {
-background-color: currentColor;
+    background-color: currentColor;
     content: "";
     display: block;
     height: 2px;
@@ -155,7 +137,7 @@ background-color: currentColor;
 }
 
 .heading2-dark {
-    font-family: Neue Helvetica,Helvetica,sans-serif;
+    font-family: Neue Helvetica, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1.3rem;
@@ -166,19 +148,19 @@ background-color: currentColor;
     text-align: center;
     color: #000;
 }
+
 .heading2-dark:after {
     background-color: currentColor;
-        content: "";
-        display: block;
-        height: 2px;
-        margin: 15px auto 10px;
-        width: 40px;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 15px auto 10px;
+    width: 40px;
 }
-
 
 .heading3-light {
     margin-top: 1rem;
-    font-family: Monotype Garamond,Garamond,serif;
+    font-family: Monotype Garamond, Garamond, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.125rem;
@@ -188,9 +170,10 @@ background-color: currentColor;
     text-align: center;
     color: #fff;
 }
+
 .heading3-dark {
     margin-top: 1rem;
-    font-family: Monotype Garamond,Garamond,serif;
+    font-family: Monotype Garamond, Garamond, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.125rem;
@@ -202,7 +185,7 @@ background-color: currentColor;
 }
 
 .light_btn {
-    font-family: Neue Helvetica,Helvetica,sans-serif;
+    font-family: Neue Helvetica, Helvetica, sans-serif;
     font-style: normal;
     font-size: .625rem;
     letter-spacing: .3em;
@@ -218,10 +201,11 @@ background-color: currentColor;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #000;
+    display: block;
+    max-width: 300px;
+    margin: auto;
     border: 1px solid #fff;
-    color: #fff;
-    margin-left: 200px;
+    background-color: transparent;
 }
 
 .light_btn a {
@@ -232,9 +216,13 @@ background-color: currentColor;
     font-weight: 700;
 }
 
+a.light_btn:hover {
+    background-color: #000;
+}
+
 
 .dark_btn {
-    font-family: Neue Helvetica,Helvetica,sans-serif;
+    font-family: Neue Helvetica, Helvetica, sans-serif;
     font-style: normal;
     font-size: .625rem;
     letter-spacing: .3em;
@@ -252,7 +240,11 @@ background-color: currentColor;
     background-color: #000;
     border: 1px solid #fff;
     color: #fff;
-    margin-left: 200px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    background-color: #000;
+    color: #FFF;
 }
 
 .dark_btn a {
@@ -265,4 +257,26 @@ background-color: currentColor;
 
 a {
     text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+        padding-bottom: 65px;
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
 }

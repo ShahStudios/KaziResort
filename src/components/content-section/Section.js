@@ -32,7 +32,7 @@ function Section({
                             <h1 className={lightText ? 'heading-light' : 'heading-dark'}>{topLine}</h1>
                             <h2 className={lightText ? 'heading2-light' : 'heading2-dark'}>{description}</h2>
                             <p className={lightText ? 'heading3-light' : 'heading3-dark'}>{bio}</p>
-                                <Link to='/about-us'>
+                                <Link to='/'>
                                 <button className={lightButton ? 'light_btn' : 'dark_btn'}>
                                     <a href="#">{buttonLabel}</a>
                                 </button>
