@@ -7,4 +7,4 @@ Web application built for luxury resort companies.
 * How to develop reusable components to allow greater control and scalability for building more consistent experience for the users
 
 # View Project
-https://kazi-resorts.netlify.app/
+https://kazi-resort.netlify.app/
